@@ -16,6 +16,7 @@ public class Login
 			WebDriver driver = new ChromeDriver();
 			driver.get("http://www.way2automation.com/angularjs-protractor/banking/#/login");
 			driver.findElement(By.xpath("(//button[@class=\"btn btn-primary btn-lg\"])[2]")).click();
+			System.out.println("Login Succesful");
 			driver.close();
 		}
 			 
